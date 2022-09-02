@@ -1,0 +1,38 @@
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: black
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2> <h6>%a, MaxTech 4343 </h6>
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_HIGHLIGHT_CSS: ../../themes/tokyo-night-dark.css
+
+#+TITLE: Introduction to robotics programming and computer science
+#+AUTHOR: Areg Kostanyan
+#+DATE: <2022-09-06 Tue>
+
+* This is my slide
+#+BEGIN_NOTES
+  Enter speaker notes here.
+#+END_NOTES
+
+#+ATTR_REVEAL: :code_attribs data-line-numbers='1|3'
+#+INCLUDE: "../programs/hello-world.rs" :lines "1-4" :src rust
+
+${n! \over k!(n-k)!} = {n \choose k}$
+
+** This goes under "this is my slide"
+
+* This is another slide
+
+There be text here!
+
+* Slide with an image background (remove this text)
+:PROPERTIES:
+:reveal_background: path/to/image
+:reveal_background_size: x00px
+:reveal_background_trans: slide
+:END:
+
+* Yet another slide
+
+* Questions?
+
+* Connect with Me
