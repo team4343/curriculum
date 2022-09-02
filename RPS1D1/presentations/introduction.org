@@ -63,3 +63,9 @@ It's OK if you don't!
  * ~#programming~ on Slack for questions you would ask in front of everyone
  * Slack DMs for questions you want 1-on-1
  * Stay back after lessons for casual conversations
+
+* Next steps
+
+ * Make a GitHub account (please!)
+ * DM me your e-mail for GitHub to be added to the GH org
+ * Install WPILib on your machine (contact me if you don't have one available)
