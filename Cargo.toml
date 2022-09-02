@@ -1,0 +1,10 @@
+[package]
+name = "curriculum"
+version = "0.0.0"
+
+[[bin]]
+name = "hello-world"
+path = "./RPS1D1/programs/hello-world.rs"
+
+[package.metadata.nix]
+build = true
