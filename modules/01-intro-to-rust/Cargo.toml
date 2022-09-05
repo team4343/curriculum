@@ -1,0 +1,7 @@
+[package]
+name = "intro-to-rust"
+version = "0.0.0"
+
+[[bin]]
+name = "hello-world"
+path = "./hello-world.rs"

@@ -1,0 +1,17 @@
+#+title: MaxTech 4343 Programming Curriculum and Instruction
+
+Welcome to MaxTech 4343's software engineering team. Over the course of the next few months, you will participate in a host of learning modules, submodules, and labs as one of the team's many young and bright students.
+
+** TODO Outline the tech stack
+** TODO Programming advice
+** TODO Minimum device specifications
+** TODO Modules
+** The mindset of an egoless engineer
+
+The following maxim summarizes what we hope to teach students on our software team:
+
+#+BEGIN_QUOTE
+Engineer based on requirements, not an ideology
+#+END_QUOTE
+
+Engineering is filled with trade-offs. The tools you decide to use should fit the job, and not every problem is a nail waiting to be struck by a hammer. Instead, an egoless engineer asses the minimum requirements for a solution to the task at hand and does only enough work to satisfy them; exceeding your specifications is a waste of time and money. In short: /Solve the problem/. There are numerous interesting, sophisticated, and complex tools in the world of software engineering, but they should not all be used. For example, for the control of non-linear systems, plant inversion is elegant on paper, but doesn't work with an innacurate model. Using a theoretically incorrect solution like linear approximations works well enough to be used industry-wide. There are more sophisticated controllers than PID, but we use PID anyway for its versatility and simplicity. Sometimes, the inferior solutions are more effective.

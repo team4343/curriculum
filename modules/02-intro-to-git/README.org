@@ -1,0 +1,7 @@
+#+title: Intro to Git
+
+** TODO Why Git?
+** TODO Installation
+** TODO Basic Git
+** TODO Assignments
+** TODO Advanced assignments

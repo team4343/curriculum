@@ -1,0 +1,6 @@
+#+title: Intro to Rust
+
+** TODO Why Rust?
+** TODO Installation
+** TODO Assignments
+** TODO Advanced assignments
