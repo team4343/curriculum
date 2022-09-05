@@ -2,9 +2,16 @@
 
 Welcome to MaxTech 4343's software engineering team. Over the course of the next few months, you will participate in a host of learning modules, submodules, and labs as one of the team's many young and bright students.
 
-** TODO Outline the tech stack
-** TODO Programming advice
-** TODO Minimum device specifications
+** Outline the tech stack
+
+The technology used at MaxTech is outlined as follows:
+
+ * Robot code: Rust, Grafana, Nix
+ * Web: Rust, TypeScript, Grafana, Nix
+ * Applications: Rust, TypeScript, Grafana, Nix
+
+This curriculum teaches everything that one could possibly need to succeed in the MaxTech software engineering environment.
+
 ** Modules
 
 *** [[file:modules/01-intro-to-rust/][Intro to Rust]]
@@ -19,7 +26,22 @@ Introduces version control systems and their uses. This module is taught using G
 
 Introduces the Nix programming language and its usage. Topics include declarative programming, functional programming, immutability, reproducibility, software deployment, and Flakes.
 
-** The mindset of an egoless engineer
+** Programming advice
+
+*** Engineering is about meeting requirements
+
+If you can meet requirements with a simpler, less comprehensive design, do it. Keep in mind that your requirements can and should include modularity, cleanliness, and readability.
+
+*** Make your code as simple as possible
+
+Make your code as simple as possible while still meeting your functionality and cleanliness requirements. You'll thank yourself later when you have to debug it or reuse it. Only starts writing big, fancy abstractions when it helps attain something that couldn't be done easily otherwise.
+
+*** Know the standard library
+
+There are a lot of difficult problems in robotics and computer science, but most of the ones relevant to FRC were already solved by experts in those fields. That expertise is made available in libraries such as the Rust standard library and WPILib. Learn their APIs well and use them. There's no use in reinventing the wheel (poorly).
+
+
+*** Keep the mindset of an egoless engineer
 
 The following maxim summarizes what we hope to teach students on our software team:
 
@@ -27,4 +49,15 @@ The following maxim summarizes what we hope to teach students on our software te
 Engineer based on requirements, not an ideology
 #+END_QUOTE
 
-Engineering is filled with trade-offs. The tools you decide to use should fit the job, and not every problem is a nail waiting to be struck by a hammer. Instead, an egoless engineer asses the minimum requirements for a solution to the task at hand and does only enough work to satisfy them; exceeding your specifications is a waste of time and money. In short: /Solve the problem/. There are numerous interesting, sophisticated, and complex tools in the world of software engineering, but they should not all be used. For example, for the control of non-linear systems, plant inversion is elegant on paper, but doesn't work with an innacurate model. Using a theoretically incorrect solution like linear approximations works well enough to be used industry-wide. There are more sophisticated controllers than PID, but we use PID anyway for its versatility and simplicity. Sometimes, the inferior solutions are more effective.
+Engineering is filled with trade-offs. The tools you decide to use should fit the job, and not every problem is a nail waiting to be struck by a hammer. Instead, an egoless engineer asses the minimum requirements for a solution to the task at hand and does only enough work to satisfy them; exceeding your specifications is a waste of time and money. In short: /Solve the problem/. There are numerous interesting, sophisticated, and complex tools in the world of software engineering, but they should not all be used. For example, for the control of non-linear systems, plant inversion is elegant on paper, but doesn't work with an inaccurate model. Using a theoretically incorrect solution like linear approximations works well enough to be used industry-wide. There are more sophisticated controllers than PID, but we use PID anyway for its versatility and simplicity. Sometimes, the inferior solutions are more effective.
+
+** Minimum device specifications
+
+For FRC-specific Rust software development, we suggest the following minimum device specifications:
+
+| Component | Minimum specification |
+|-----------+-----------------------|
+| CPU       | Intel i3              |
+| RAM       | 4 GB                  |
+| Storage   | 30 GB free            |
+| OS        | Linux OR Windows/WSL  |
