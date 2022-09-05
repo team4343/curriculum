@@ -5,7 +5,20 @@ Welcome to MaxTech 4343's software engineering team. Over the course of the next
 ** TODO Outline the tech stack
 ** TODO Programming advice
 ** TODO Minimum device specifications
-** TODO Modules
+** Modules
+
+*** [[file:modules/01-intro-to-rust/][Intro to Rust]]
+
+Introduces the fundamentals of computer programming and software design in Rust. Topics include variables, data types, assignment, expressions, basic I/O, memory ownership, scope, and data structures.
+
+*** [[file:modules/02-intro-to-git/][Intro to Git]]
+
+Introduces version control systems and their uses. This module is taught using Git. Installation of Git, setting up user identification for commits, and basic workflow are covered, with emphasis on the use of branches to manage work between repositories.
+
+*** [[file:modules/03-intro-to-nix/][Intro to Nix]]
+
+Introduces the Nix programming language and its usage. Topics include declarative programming, functional programming, immutability, reproducibility, software deployment, and Flakes.
+
 ** The mindset of an egoless engineer
 
 The following maxim summarizes what we hope to teach students on our software team:

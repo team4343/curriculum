@@ -4,4 +4,4 @@ version = "0.0.0"
 
 [[bin]]
 name = "hello-world"
-path = "./hello-world.rs"
+path = "./programs/hello-world.rs"

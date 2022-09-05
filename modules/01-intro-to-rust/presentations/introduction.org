@@ -1,0 +1,71 @@
+#+TITLE: Intro to Rust
+#+AUTHOR: Areg Kostanyan
+#+DATE: <2022-09-06 Tue>
+
+#+OPTIONS: toc:nil
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: black
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2> <h6>%a, MaxTech 4343 </h6>
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_HIGHLIGHT_CSS: ../../../themes/tokyo-night-dark.css
+
+* Introduction
+
+** Who here has programming experience before?
+
+It's OK if you don't!
+
+** Round table
+
+#+BEGIN_NOTES
+ * Keep your hands up.
+ * Ask each one what they have done before.
+ * Remind everyone that in this environment, we are all learning, as robotics programming is like something you haven't seen before.
+#+END_NOTES
+
+* This course
+
+** Course summary
+
+"/Programming robots is a large, explored, and well-studied field. In this course, students will learn FRC-specific robot programming. They will study the Rust programming language, the WPI library, and the IDE of their choice. Students will finish this course with the intuition and knowledge needed for programming a basic FRC robot./"
+
+** Why a course?
+
+#+BEGIN_NOTES
+ * Because this shit is hard.
+ * It's important to teach.
+#+END_NOTES
+
+** De-facto course syllabus
+
+ * Starts... today!
+ * Over by December 1
+
+ #+BEGIN_NOTES
+ * Stress that this is the plan /right now/, it can change over time if necessary.
+ * Go over a regular FRC season if necessary.
+ #+END_NOTES
+
+* A taste of Rust
+
+#+ATTR_REVEAL: :code_attribs data-line-numbers='|1|2-4|6|'
+#+INCLUDE: "../programs/hello-world.rs" :src rust
+
+#+BEGIN_NOTES
+ * Be sure to mention the curly braces around the function connect.
+ * We will discuss what a function means later - akin to a mathematical function.
+#+END_NOTES
+
+* Questions?
+
+* Keeping connected
+
+ * ~#programming~ on Slack for questions you would ask in front of everyone
+ * Slack DMs for questions you want 1-on-1
+ * Stay back after lessons for casual conversations
+
+* Next steps
+
+ * Make a GitHub account (please!)
+ * DM me your e-mail for GitHub to be added to the GH org
+ * Install WPILib on your machine (contact me if you don't have one available)
