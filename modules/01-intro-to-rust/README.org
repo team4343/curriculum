@@ -1,6 +1,79 @@
 #+title: Intro to Rust
 
-** TODO Why Rust?
-** TODO Installation
-** TODO Assignments
-** TODO Advanced assignments
+** Why Rust?
+
+We want to teach you how a computer's hardware really works. Knowing a lower-level language like C++ or Rust will make you a more capable developer than one who only knows Python or Java. The blog post [[https://www.evanmiller.org/you-cant-dig-upwards.html][You Can't Dig Upwards]] does a good job of explaining why.
+
+Why not C++? Because Rust's built-in ownership mechanism ensures that you can't create malformed programs (most of the time). Furthermore, it's standardized crate ecosystem allows modularity in the face of complex issues. [[https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/][This Overflow blog post]] explains why Rust is popular, and what it can do for you.
+
+** Installation
+
+If on Windows, [[https://docs.microsoft.com/en-us/windows/wsl/install][install WSL Ubuntu]].
+
+ 1. Navigate to [[https://rustup.rs][rustup.rs]].
+ 2. Follow the instructions on screen. Note that if you are on Windows, you should install the Windows Subsystem for Linux version.
+ 3. Ensure that you have a valid Rust installation with ~cargo --version~.
+
+** Resources
+
+There are numerous resources online for learning Rust. We endorse all of them, as the Rust community as a whole is a very helpful place with many extremely educational posts. However, we will specifically be learning from three main resources:
+
+ 1. [[https://doc.rust-lang.org/book/][The Rust Programming Language]] by Steve Klabnik, Carol Nichols, and the Rust Community,
+ 2. [[https://doc.rust-lang.org/rust-by-example/][Rust by Example]] by Steve Klabnik and the Rust Community, and
+ 3. The [[https://www.youtube.com/c/JonGjengset/videos][Crust of Rust]] series by Jon Gjengset.
+
+** Submodules
+
+*** Submodule 1
+
+Work through the foreword, introduction and getting started sections of the Rust Book.
+
+*** Submodule 2
+
+Work through Rust by Example chapters 1-4. Then work through chapter 2 of the Rust Book.
+
+*** Submodule 3
+
+We will work through chapter 3, 4 of the Rust Book together. Separately, read through [[https://blog.logrocket.com/understanding-ownership-in-rust/][the LogRocket blog post about ownership]].
+
+*** Submodule 4
+
+Work through chapters 5, 6, and 8 of the Rust Book. Then work through chapters 5, 7, and 8, and 9 of Rust by Example.
+
+*** Submodule 5
+
+Read through chapter 7 of the Rust Book, then chapters 10-12 of Rust by Example.
+
+*** Submodule 6
+
+Read through chapter 9 of the Rust Book, then chapter 18 of Rust by Example.
+
+*** Submodule 7
+
+Read through chapters 10, 13 of the Rust Book. Then work through chapters 6, 14, 16 of Rust by Example. Optionally watch the [[https://www.youtube.com/watch?v=iVYWDIW71jk][Subtyping and Variance Crust of Rust video]].
+
+*** Submodule 8
+
+Read through chapters 11, 15 of the Rust Book.
+
+*** Submodule 9
+
+Create the project specified in chapter 12 of the Rust Book. Then read chapter 14 of the Rust Book.
+
+*** Submodule 10
+
+Work through chapters 15, 16, and 18, 19 of the Rust Book.
+
+*** Submodule 11
+
+Create the project specified in chapter 20 of the Rust Book.
+
+*** Submodule 12
+
+We will work through using Rust and WPILib together in class.
+
+** Advanced assignments
+
+If you have completed all submodules and still have time to study, congratulations! You know /a lot/ about Rust, programming, and computers in general.
+
+Work through the rest of Jon's Crust of Rust series, any missed chapters of Rust by Example, and learn intermediate Rust from [[https://nostarch.com/rust-rustaceans][Rust for Rustaceans]] and the Dark Arts from the [[https://doc.rust-lang.org/nomicon/][Rustonomicon]]. These are the things that will bring you to another level of Rust programming.
